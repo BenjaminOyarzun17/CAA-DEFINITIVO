@@ -1,59 +1,35 @@
+
 import React from 'react';
+import { Route, IndexRoute } from 'react-router';
 
-import './App.css';
-import Noticia from './Noticia.js';
-import Anuncio from './Anuncio.js';
+/**
+ * Import all page components here
+ */
+import Main from './components/Main.js';
+//import SomePage from './components/SomePage';
+//import SomeOtherPage from './components/SomeOtherPage';
 
-import Navegacion from './Navbar.js';
-import {noticias} from './Noticias.json';
-import {Row,Container} from 'reactstrap';
+/**
+ * All routes go here.
+ * Don't forget to import the components above after adding new route.
+ * <Route path="/some/where" component={SomePage} />
+    <Route path="/some/otherpage" component={SomeOtherPage} />
+ */
 
 
 
 
 class App extends React.Component{
-  constructor(){
-    super();
-    this.state={
-      noticias
-    };
-  }
   
   
   render(){
-    const arregloComponente = this.state.noticias.map(
-      (noticias,i) => {
-        return ( 
-        <Container >
-        <Noticia
-          key ={i}
-          imagen ={noticias.imagen}
-          cabezal={noticias.cabezal}
-          contenido={noticias.contenido}
-          />
-        </Container>
-        
-        )}
-    );
     return (
-    <div className="App">
-      <Navegacion/>
-      <Container>
-        <Anuncio/>
-      </Container>
-
+    <Route path="/" component={Main}>
       
-      <Container>
-      <Row>
-        <h1  style={{margin: "20px"}}>Nuestra directiva</h1>
-        {arregloComponente}
-      </Row>
-      </Container>
-      
-      
-    </div>
+    </Route>
   );
 }
 }
 
 export default App;
+
