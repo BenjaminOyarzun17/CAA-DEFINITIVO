@@ -1,5 +1,5 @@
 {
-    "noticias":[
+    "integrantes":[
         {
             "cabezal":"Presidente: Gabriel Poblete",
             "contenido":"bienvenido",
@@ -17,8 +17,8 @@
             "contenido":"Por un lado, como tesorero me encargaré de administrar los recursos de nuestro centro de alumnos. Seré responsable a la hora de hacer esto, y daré acceso público a los gastos realizados por el centro de alumnos (mediante hoja de cálculos de Google). Por otro lado, como encargado de difusión, seré responsable de difundir toda aquella acción que el centro de alumnos esté llevando a cabo, sumado a la difusión de encuestas y la administración de los medios de esta lista, tal cual como esta página web, el instagram, o el discord. ",
             "imagen":"64.png"
         },{
-            "cabezal":"Encargado de relaciones exteriores: Robert Wagner",
-            "contenido":"bienvenido",
+            "cabezal":"Encargado de relaciones públicas: Robert Wagner",
+            "contenido":"Como encargado de relaciones públicas, me comprometo a gestionar todo lo relacionado con comunicaciones dentro y fuera del colegio, organizando eventos de todo tipo, como actividades con otros colegios, reuniones con la municipalidad, o charlas vocacionales. También tomare en cuenta cualquier sugerencia de parte de los alumnos y profesores y las compartiré con la directiva.  Estoy dispuesto  a estar presente en cualquier instancia que precise a un representante de la directiva. Ademas, seré completamente transparente con la información y seré el vocero de las propuestas del CAA.",
             "imagen":"64.png"
         }
     ]

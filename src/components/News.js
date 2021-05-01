@@ -1,7 +1,6 @@
 import React from 'react';
 
 import '../App.css';
-import Navegacion from 'Navbar.js';
 
 
 
@@ -15,7 +14,7 @@ class Main extends React.Component{
    
     return (
     <div>
-        <Navegacion/>
+        
 
         Seccion de noticias
       

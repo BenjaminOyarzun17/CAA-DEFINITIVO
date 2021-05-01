@@ -1,20 +1,15 @@
 
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { BrowserRouter as Router ,Switch,Route} from 'react-router-dom';
 
 /**
  * Import all page components here
  */
 import Main from './components/Main.js';
-//import SomePage from './components/SomePage';
-//import SomeOtherPage from './components/SomeOtherPage';
+import News from './components/News.js';
+import Navegacion from './components/Navegacion.js';
+import About from './components/About.js';
 
-/**
- * All routes go here.
- * Don't forget to import the components above after adding new route.
- * <Route path="/some/where" component={SomePage} />
-    <Route path="/some/otherpage" component={SomeOtherPage} />
- */
 
 
 
@@ -24,9 +19,19 @@ class App extends React.Component{
   
   render(){
     return (
-    <Route path="/" component={Main}>
-      
-    </Route>
+    <div className='App'>
+      <Navegacion></Navegacion>
+      <Router>
+        <Switch>
+          <Route path='/' exact component={Main}></Route>
+          <Route path='/noticias' component={News}></Route>
+          <Route path='/about' component={About}></Route>
+          
+        </Switch>
+      </Router>
+
+    </div>
+    
   );
 }
 }

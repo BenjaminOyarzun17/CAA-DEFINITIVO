@@ -4,8 +4,7 @@ import '../App.css';
 import Noticia from './Noticia.js';
 import Anuncio from './Anuncio.js';
 
-import Navegacion from './Navbar.js';
-import {noticias} from './Noticias.json';
+import {integrantes} from './Integrantes.json';
 import {Row,Container} from 'reactstrap';
 
 
@@ -15,21 +14,21 @@ class Main extends React.Component{
   constructor(){
     super();
     this.state={
-      noticias
+      integrantes
     };
   }
   
   
   render(){
-    const arregloComponente = this.state.noticias.map(
-      (noticias,i) => {
+    const arregloComponente = this.state.integrantes.map(
+      (integrantes,i) => {
         return ( 
         <Container >
         <Noticia
           key ={i}
-          imagen ={noticias.imagen}
-          cabezal={noticias.cabezal}
-          contenido={noticias.contenido}
+          imagen ={integrantes.imagen}
+          cabezal={integrantes.cabezal}
+          contenido={integrantes.contenido}
           />
         </Container>
         
@@ -37,7 +36,7 @@ class Main extends React.Component{
     );
     return (
     <div>
-      <Navegacion/>
+     
       <Container>
         <Anuncio/>
       </Container>

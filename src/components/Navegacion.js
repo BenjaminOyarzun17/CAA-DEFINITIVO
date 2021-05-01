@@ -10,11 +10,13 @@ class Navegacion extends React.Component{
         return(
             <Navbar color='light' light expand ='sm'>
                 <NavbarBrand href='/'>CAA DS MORUS</NavbarBrand>
-                <Nav className='ml-auto' navbar>
+                <Nav>
                     <NavItem>
-                        
+                        <NavLink href="/noticias">Noticias</NavLink>
                     </NavItem>
-
+                    <NavItem>
+                        <NavLink href="/about">Sobre Nosotros</NavLink>
+                    </NavItem>
                 </Nav>
             </Navbar>
         )
