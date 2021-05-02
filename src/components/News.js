@@ -21,7 +21,7 @@ class Main extends React.Component{
 
 
 render(){
-const arregloComponente = this.state.noticias.map(
+const mostrarNoticias = this.state.noticias.map(
     (noticias,i) => {
       return ( 
       <Container >
@@ -41,7 +41,7 @@ const arregloComponente = this.state.noticias.map(
         
         <h1>Sección de noticias</h1>
         
-        {arregloComponente}
+        {mostrarNoticias}
       
     </div>
   );

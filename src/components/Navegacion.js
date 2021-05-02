@@ -15,8 +15,12 @@ class Navegacion extends React.Component{
                         <NavLink href="/noticias">Noticias</NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink href="/propuestas">Nuestras Propuestas</NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink href="/about">Sobre Nosotros</NavLink>
                     </NavItem>
+                    
                 </Nav>
             </Navbar>
         )

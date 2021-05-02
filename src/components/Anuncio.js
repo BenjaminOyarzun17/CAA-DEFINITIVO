@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron, Button,Container } from 'reactstrap';
 
 
 
@@ -17,7 +17,15 @@ class Anuncio extends React.Component{
                 <hr className="my-2" />
                 <p>Esperamos que les sea de utilidad.</p>
                 <p className="lead">
-                  <Button color="primary">Ver más</Button>
+                  <Container style={{marginBottom:'10px'}}>
+                    <Button color="primary" href='/about'>Sobre nuestra lista</Button>
+                  </Container>
+                  
+                  <Container>
+                    <Button color="primary" href='/propuestas'>Nuestras propuestas</Button>
+                  </Container>  
+                  
+                  
                 </p>
               </Jumbotron>
             </div>

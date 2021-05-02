@@ -24,12 +24,13 @@ class About extends React.Component{
     const arregloComponente = this.state.integrantes.map(
         (integrantes,i) => {
           return ( 
-          <Container >
+          <Container style={{backgroundColor:'lightblue', margin:'15px', borderStyle:"solid", borderWidth:"5px"}}>
           <Noticia
             key ={i}
             imagen ={integrantes.imagen}
             cabezal={integrantes.cabezal}
             contenido={integrantes.contenido}
+            mail = {integrantes.mail}
             />
           </Container>
           
@@ -38,7 +39,7 @@ class About extends React.Component{
     return (
     <div>
         
-        <h1>Sobre nosotros</h1>
+        <h1 style={{textAlign:'justify', margin:"50px"}}>Sobre nosotros</h1>
         <Container>
         {arregloComponente}
         </Container>

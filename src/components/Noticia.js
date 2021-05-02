@@ -17,9 +17,11 @@ class Noticia extends React.Component{
             <Media body>
               <Media heading style={{marginLeft: "5px"}}>
               <p style={{textAlign: "justify"}}>{this.props.cabezal}</p>
-              
               </Media>
-              <p style={{textAlign: "justify",marginLeft: "5px"}}>{this.props.contenido}</p>
+              <p style={{textAlign: "justify",marginLeft: "5px"}}><b>Contacto</b>: {this.props.mail}
+              <br></br>
+              {this.props.contenido}              
+              </p>
             </Media>
         </Media>
        
