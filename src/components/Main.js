@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../App.css';
-import Noticia from './Noticia.js';
+import Noticia from './Directiva.js';
 import Anuncio from './Anuncio.js';
 
 import {integrantes} from './Integrantes.json';

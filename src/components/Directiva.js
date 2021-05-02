@@ -3,7 +3,7 @@ import React from 'react';
 import { Media } from 'reactstrap';
 
 
-class Noticia extends React.Component{
+class Directiva extends React.Component{
     render(){
         return(
         
@@ -18,9 +18,10 @@ class Noticia extends React.Component{
               <Media heading style={{marginLeft: "5px"}}>
               <p style={{textAlign: "justify"}}>{this.props.cabezal}</p>
               </Media>
-              
+              <p style={{textAlign: "justify",marginLeft: "5px"}}><b>Contacto</b>: {this.props.mail}
+              <br></br>
               {this.props.contenido}              
-              
+              </p>
             </Media>
         </Media>
        
@@ -31,4 +32,4 @@ class Noticia extends React.Component{
         )
 }
 }
-export default Noticia;
+export default Directiva;

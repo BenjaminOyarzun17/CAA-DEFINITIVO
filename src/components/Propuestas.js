@@ -5,7 +5,7 @@ import Noticia from './Noticia.js';
 import Anuncio from './Anuncio.js';
 
 import {integrantes} from './Integrantes.json';
-import {Row,Container} from 'reactstrap';
+import { Container, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 import pilares from './pilares.png';
 import pilarCentral from './pilarCentral.png';
@@ -18,8 +18,18 @@ class Propuestas extends React.Component{
   
   render(){
     
+  
     return (
     <div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <Container>
         
         

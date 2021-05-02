@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../App.css';
-import Noticia from './Noticia.js';
+import Directiva from './Directiva.js';
 import Anuncio from './Anuncio.js';
 
 import {integrantes} from './Integrantes.json';
@@ -25,7 +25,7 @@ class About extends React.Component{
         (integrantes,i) => {
           return ( 
           <Container style={{backgroundColor:'lightblue', margin:'15px', borderStyle:"solid", borderWidth:"5px"}}>
-          <Noticia
+          <Directiva
             key ={i}
             imagen ={integrantes.imagen}
             cabezal={integrantes.cabezal}
@@ -33,7 +33,6 @@ class About extends React.Component{
             mail = {integrantes.mail}
             />
           </Container>
-          
           )}
       );
     return (
