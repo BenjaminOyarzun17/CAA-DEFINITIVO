@@ -24,7 +24,7 @@ render(){
 const mostrarNoticias = this.state.noticias.map(
     (noticias,i) => {
       return ( 
-      <Container >
+      <Container style={{textAlign:"justify", margin:'10px'}} >
       <Noticia
         key ={i}
         imagen ={noticias.imagen}
@@ -38,7 +38,7 @@ const mostrarNoticias = this.state.noticias.map(
    
     return (
     <div>
-        <h1>Sección de noticias        </h1>
+        <h1 style={{textAlign:'justify', margin:'10px'}}>Sección de noticias        </h1>
         {mostrarNoticias}
       
     </div>

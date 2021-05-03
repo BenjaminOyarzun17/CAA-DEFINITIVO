@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Media } from 'reactstrap';
-
+//import {estrenoWeb} from 'estrenoWeb.png';
 
 class Noticia extends React.Component{
     render(){
@@ -9,9 +9,8 @@ class Noticia extends React.Component{
         
         <Media >
             <Media left href="#">
-              <img style={{width: "200px",
-  height: "200px"}} src='https://lh3.googleusercontent.com/V45ZUOJ4ilM6bYcgfEDVWCSkxi1lhNYx96qS1CVrtpuAuGdMUCy0L5ihhK2gYh1kPSIHjfXbfpeK3HNBtXrc=s400' alt='imagen perfil'></img>
               
+              <img src={this.props.imagen} class="img-fluid" alt="Responsive image"></img>
               
             </Media>
             <Media body>
