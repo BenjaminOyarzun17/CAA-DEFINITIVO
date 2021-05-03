@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import CatLogo from './CatLogo.png';
+import {Navbar, Nav} from 'react-bootstrap';
 
 
 
@@ -8,21 +9,36 @@ class Navegacion extends React.Component{
     render(){
         
         return(
-            <Navbar color='light' light expand ='sm'>
-                <NavbarBrand href='/'>CAA DS MORUS</NavbarBrand>
-                <Nav>
-                    <NavItem>
-                        <NavLink href="/noticias">Noticias</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/propuestas">Nuestras Propuestas</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/about">Sobre Nosotros</NavLink>
-                    </NavItem>
+            <div>
+          <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">
+      <img
+        alt=""
+        src={CatLogo}
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />{' '}
+      CAA DS MORUS
+    </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                    <Nav.Link href="/">Inicio</Nav.Link>
+                    <Nav.Link href="about">Sobre nosotros</Nav.Link>
+                    <Nav.Link href="propuestas">Nuestras propuestas</Nav.Link>
                     
-                </Nav>
+                    <Nav.Link href="noticias">Nuestras propuestas</Nav.Link>
+
+                    </Nav>
+                   
+                </Navbar.Collapse>
             </Navbar>
+                    
+          </div>
+            
+                
+                
         )
 }
 }
