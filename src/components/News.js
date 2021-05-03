@@ -38,9 +38,7 @@ const mostrarNoticias = this.state.noticias.map(
    
     return (
     <div>
-        
-        <h1>Sección de noticias</h1>
-        
+        <h1>Sección de noticias        </h1>
         {mostrarNoticias}
       
     </div>

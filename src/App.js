@@ -8,6 +8,8 @@ import News from './components/News.js';
 import Navegacion from './components/Navegacion.js';
 import About from './components/About.js';
 import Propuestas from './components/Propuestas.js';
+import Footer from './components/Footer.js';
+
 import {Row,Col} from 'reactstrap';
 
 
@@ -28,19 +30,7 @@ class App extends React.Component{
           <Route path='/propuestas' component={Propuestas}></Route>
         </Switch>
       </Router>
-      <footer style={{position:'sticky', borderStyle:"solid none none none"}}>
-        <Col>
-          <Row><p style={{margin:"10px"}}><a href="kschreiner@dsmorus.cl">Contacto</a></p></Row>
-          <Row><p style={{margin:"10px"}}><a href="https://discord.gg/tPpUskwuD5">Discord</a></p></Row>
-          <Row><p style={{margin:"10px"}}><a href="/">Instagram</a></p></Row>
-          <Row><p style={{margin:"10px"}}><a href="/">Whatsapp</a></p></Row>
-
-
-        </Col>
-        
-        
-      
-      </footer>
+      <Footer></Footer>
     </div>
     
   );
