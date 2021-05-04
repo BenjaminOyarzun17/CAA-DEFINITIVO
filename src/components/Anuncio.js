@@ -6,7 +6,7 @@ import council from './council.png'
 import angryDoggo from './angryDoggo.png'
 import Puñito from './Puñito.png'
 import Average from './average.png'
-
+import CatLogo from './CatLogo.png';
 class Anuncio extends React.Component{
   
 
@@ -28,16 +28,18 @@ class Anuncio extends React.Component{
                     <img src={Puñito} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
                  
                     <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>  
-                    <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={CatLogo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
                   
                     
 
                   </Container>
+                  <br></br>
                   <Container>
                   <Button color="primary" href='/about'>Sobre nuestra lista</Button>
                   
 
                   </Container>
+                  <br></br>
                   <Container>
                   <Button color="primary" href='/propuestas'>Nuestras propuestas</Button>
                   </Container>
