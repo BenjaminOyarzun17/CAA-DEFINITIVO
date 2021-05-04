@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Button,Container } from 'reactstrap';
+import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 
 import AmeliaWatson from './AmeliaWatson.png';
 import council from './council.png'
@@ -19,21 +19,29 @@ class Anuncio extends React.Component{
                 <hr className="my-2" />
                 
                 <p className="lead">
-                  <Container>
-                  <img src={AmeliaWatson} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  <img src={council} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  <img src={angryDoggo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  <img src={Puñito} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  </Container>
-                  <br></br>
-                  <Container style={{marginBottom:'10px'}}>
-                    <Button color="primary" href='/about'>Sobre nuestra lista</Button>
-                  </Container>
                   
                   <Container>
-                    <Button color="primary" href='/propuestas'>Nuestras propuestas</Button>
-                  </Container>  
+                    <img src={AmeliaWatson} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={council} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                  
+                    <img src={angryDoggo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={Puñito} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                 
+                    <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>  
+                    <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                  
+                    
+
+                  </Container>
+                  <Container>
+                  <Button color="primary" href='/about'>Sobre nuestra lista</Button>
+                  
+
+                  </Container>
+                  <Container>
+                  <Button color="primary" href='/propuestas'>Nuestras propuestas</Button>
+                  </Container>
+                  
                   
                   
                 </p>
