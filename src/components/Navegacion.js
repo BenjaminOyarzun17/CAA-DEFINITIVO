@@ -28,7 +28,7 @@ class Navegacion extends React.Component{
                     <Nav.Link href="about">Sobre nosotros</Nav.Link>
                     <Nav.Link href="propuestas">Nuestras propuestas</Nav.Link>
                     
-                    <Nav.Link href="noticias">Nuestras propuestas</Nav.Link>
+                    <Nav.Link href="noticias">Noticias</Nav.Link>
 
                     </Nav>
                    
