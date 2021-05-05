@@ -7,6 +7,8 @@ import angryDoggo from './angryDoggo.png'
 import Puñito from './Puñito.png'
 import Average from './average.png'
 import CatLogo from './CatLogo.png';
+import Sapo from './sapo.png';
+import Messi from './messi.png';
 class Anuncio extends React.Component{
   
 
@@ -29,7 +31,8 @@ class Anuncio extends React.Component{
                  
                     <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>  
                     <img src={CatLogo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  
+                    <img src={Sapo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={Messi} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
                     
 
                   </Container>

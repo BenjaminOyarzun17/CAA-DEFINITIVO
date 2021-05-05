@@ -11,7 +11,7 @@ class Directiva extends React.Component{
             <Media left href="#">
               
               
-              <img src={this.props.imagen} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+              <img src={this.props.imagen} style ={{width:'150px', height:"auto"}} alt="Responsive image"></img>
             </Media>
             <Media body>
               <Media heading style={{marginLeft: "10px"}}>

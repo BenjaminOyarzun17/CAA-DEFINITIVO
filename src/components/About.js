@@ -8,7 +8,7 @@ import {integrantes} from './Integrantes.json';
 import {Row,Container} from 'reactstrap';
 
 import Benja from "./Benja.jpeg";
-
+import Robert from "./Robert.jpeg";
 
 
 class About extends React.Component{
@@ -80,7 +80,7 @@ class About extends React.Component{
           <Container>
           <Directiva
               
-              imagen ={integrantes[4].imagen}
+              imagen ={Robert}
               cabezal={integrantes[4].cabezal}
               contenido={integrantes[4].contenido}
               mail = {integrantes[4].mail}
