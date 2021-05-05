@@ -79,8 +79,8 @@ class About extends React.Component{
           </Container>
           <Container>
           <Directiva
-              
-              imagen ={Robert}
+               
+               imagen ={Robert}
               cabezal={integrantes[4].cabezal}
               contenido={integrantes[4].contenido}
               mail = {integrantes[4].mail}
