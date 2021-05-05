@@ -11,7 +11,7 @@ class Navegacion extends React.Component{
         return(
             <div>
           <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="CAA-DEFINITIVO">
       <img
         alt=""
         src={CatLogo}
@@ -24,7 +24,7 @@ class Navegacion extends React.Component{
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link href="/">Inicio</Nav.Link>
+                    <Nav.Link href="CAA-DEFINITIVO">Inicio</Nav.Link>
                     <Nav.Link href="about">Sobre nosotros</Nav.Link>
                     <Nav.Link href="propuestas">Nuestras propuestas</Nav.Link>
                     
