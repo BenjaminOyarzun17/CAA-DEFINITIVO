@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router ,Switch,Route} from 'react-router-dom';
+import { HashRouter as Router ,Switch,Route,Link} from 'react-router-dom';
 
 
 import Main from './components/Main.js';
@@ -22,11 +22,11 @@ class App extends React.Component{
     return (
     <div className='App'>
       <Navegacion></Navegacion>
-      <Router>
+      <Router >
         <Switch>
-          <Route path='/CAA-MORUS' exact component={Main}></Route>
+          <Route path='/'  component={Main}></Route>
           <Route path='/noticias' component={News}></Route>
-          <Route path='/about' component={About}></Route>
+          <Link to='/about' component={About}></Link>
           <Route path='/propuestas' component={Propuestas}></Route>
         </Switch>
       </Router>
