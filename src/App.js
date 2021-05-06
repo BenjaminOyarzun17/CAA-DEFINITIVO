@@ -22,14 +22,14 @@ class App extends React.Component{
     return (
     <div className='App'>
       <Navegacion></Navegacion>
-      <Router >
-        <Switch>
-          <Route path='/'  component={Main}></Route>
+      
+        
+          <Route exact path='/'  component={Main}></Route>
           <Route path='/noticias' component={News}></Route>
-          <Link to='/about' component={About}></Link>
+          <Route path='/about' component={About}></Route>
           <Route path='/propuestas' component={Propuestas}></Route>
-        </Switch>
-      </Router>
+        
+      
       <Footer></Footer>
     </div>
     
