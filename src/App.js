@@ -24,7 +24,7 @@ class App extends React.Component{
       <Navegacion></Navegacion>
       <Router>
         <Switch>
-          <Route path='/CAA-DEFINITIVO' exact component={Main}></Route>
+          <Route path='/CAA-MORUS' exact component={Main}></Route>
           <Route path='/noticias' component={News}></Route>
           <Route path='/about' component={About}></Route>
           <Route path='/propuestas' component={Propuestas}></Route>
