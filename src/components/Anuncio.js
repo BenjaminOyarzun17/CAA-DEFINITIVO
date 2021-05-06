@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
+import {Link} from 'react-router-dom';
 
 import AmeliaWatson from './AmeliaWatson.png';
 import council from './council.png'
@@ -38,13 +39,14 @@ class Anuncio extends React.Component{
                   </Container>
                   <br></br>
                   <Container>
-                  <Button color="primary" href='/about'>Sobre nuestra lista</Button>
                   
+                  <Link to='/about'>Sobre nuestra lista</Link>
 
                   </Container>
                   <br></br>
                   <Container>
-                  <Button color="primary" href='/propuestas'>Nuestras propuestas</Button>
+                  <Link to='/propuestas'>Nuestras propuestas</Link>
+                  
                   </Container>
                   
                   

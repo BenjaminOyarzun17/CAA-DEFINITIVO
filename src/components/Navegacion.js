@@ -11,7 +11,7 @@ class Navegacion extends React.Component{
         return(
             <div>
           <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="">
       <img
         alt=""
         src={CatLogo}
