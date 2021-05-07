@@ -2,6 +2,7 @@ import React from 'react';
 
 import CatLogo from './CatLogo.png';
 import {Navbar, Nav} from 'react-bootstrap';
+import { Link} from 'react-router-dom';
 
 
 
@@ -11,7 +12,7 @@ class Navegacion extends React.Component{
         return(
             <div>
           <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="">
       <img
         alt=""
         src={CatLogo}
@@ -24,11 +25,11 @@ class Navegacion extends React.Component{
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link href="/">Inicio</Nav.Link>
-                    <Nav.Link href="/about">Sobre nosotros</Nav.Link>
-                    <Nav.Link href="/propuestas">Nuestras propuestas</Nav.Link>
+                    <Link style={{margin:'5px'}} to="/">Inicio</Link>
+                    <Link style={{margin:'5px'}} to="/about">Sobre nosotros</Link>
+                    <Link style={{margin:'5px'}} to="/propuestas">Nuestras propuestas</Link>
                     
-                    <Nav.Link href="/noticias">Noticias</Nav.Link>
+                    <Link style={{margin:'5px'}} to="/noticias">Noticias</Link>
 
                     </Nav>
                    
