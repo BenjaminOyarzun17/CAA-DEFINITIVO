@@ -3,6 +3,7 @@ import React from 'react';
 import CatLogo from './CatLogo.png';
 import {Navbar, Nav} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
+import {Row,Col} from 'reactstrap';
 
 
 
@@ -25,11 +26,25 @@ class Navegacion extends React.Component{
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                    <Link style={{margin:'5px'}} to="/">Inicio</Link>
-                    <Link style={{margin:'5px'}} to="/about">Sobre nosotros</Link>
-                    <Link style={{margin:'5px'}} to="/propuestas">Nuestras propuestas</Link>
                     
-                    <Link style={{margin:'5px'}} to="/noticias">Noticias</Link>
+                      
+                      
+                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/">Inicio</Link></Nav.Link>
+                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/about">Sobre nosotros</Link></Nav.Link>
+                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/propuestas">Nuestras propuestas</Link></Nav.Link>
+                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/noticias">Noticias</Link></Nav.Link>
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                    
+                    
+                    
+                    
+                    
 
                     </Nav>
                    
