@@ -1,7 +1,7 @@
 import React from 'react';
 
 import CatLogo from './CatLogo.png';
-import {Navbar, Nav} from 'react-bootstrap';
+import {Navbar, Nav,NavDropdown} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
 import {Row,Col} from 'reactstrap';
 
@@ -28,10 +28,12 @@ class Navegacion extends React.Component{
                     <Nav className="mr-auto">
                                          
                       <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/">Inicio</Link></Nav.Link>
-                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/about">Sobre nosotros</Link></Nav.Link>
-                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/propuestas">Nuestras propuestas</Link></Nav.Link>
-                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/noticias">Noticias</Link></Nav.Link>
                       
+                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/noticias">Noticias</Link></Nav.Link>
+                      <NavDropdown title="Nuestra lista" id="basic-nav-dropdown">
+                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/about">Sobre nosotros</Link></NavDropdown.Item>
+                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/propuestas">Nuestras propuestas</Link></NavDropdown.Item>
+                      </NavDropdown>
                     </Nav>
                    
                 </Navbar.Collapse>
