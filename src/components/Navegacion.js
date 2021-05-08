@@ -29,10 +29,11 @@ class Navegacion extends React.Component{
                                          
                       <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/">Inicio</Link></Nav.Link>
                       
-                      <Nav.Link href=""><Link style={{color:'whitesmoke'}} to="/noticias">Noticias</Link></Nav.Link>
-                      <NavDropdown title="Nuestra lista" id="basic-nav-dropdown">
-                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/about">Sobre nosotros</Link></NavDropdown.Item>
-                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/propuestas">Nuestras propuestas</Link></NavDropdown.Item>
+                      <NavDropdown title="About" id="basic-nav-dropdown">
+                      
+                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/about">Directiva</Link></NavDropdown.Item>
+                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/propuestas">Propuestas</Link></NavDropdown.Item>
+                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/noticias">Noticias</Link></NavDropdown.Item>
                       </NavDropdown>
                     </Nav>
                    
