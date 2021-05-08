@@ -9,8 +9,8 @@ import { Container } from 'reactstrap';
 import {Card, Accordion, Button} from 'react-bootstrap';
 
 
-import pilares from './pilares.png';
-import pilarCentral from './pilarCentral.png';
+import pilares from '../images/pilares.png';
+import pilarCentral from '../images/pilarCentral.png';
 
 
 

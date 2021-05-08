@@ -2,14 +2,14 @@ import React from 'react';
 import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
-import AmeliaWatson from './AmeliaWatson.png';
-import council from './council.png'
-import angryDoggo from './angryDoggo.png'
-import Puñito from './Puñito.png'
-import Average from './average.png'
-import CatLogo from './CatLogo.png';
-import Sapo from './sapo.png';
-import Messi from './messi.png';
+import AmeliaWatson from '../images/AmeliaWatson.png';
+import council from '../images/council.png'
+import angryDoggo from '../images/angryDoggo.png'
+import Puñito from '../images/Puñito.png'
+import Average from '../images/average.png'
+import CatLogo from '../images/CatLogo.png';
+import Sapo from '../images/sapo.png';
+import Messi from '../images/messi.png';
 class Anuncio extends React.Component{
   
 

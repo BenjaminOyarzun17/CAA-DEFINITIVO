@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CatLogo from './CatLogo.png';
+import CatLogo from '../images/CatLogo.png';
 import {Navbar, Nav,NavDropdown} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
 import {Row,Col} from 'reactstrap';

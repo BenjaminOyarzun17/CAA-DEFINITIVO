@@ -7,9 +7,9 @@ import Anuncio from './Anuncio.js';
 import {integrantes} from './Integrantes.json';
 import {Row,Container} from 'reactstrap';
 
-import Benja from "./Benja.jpeg";
-import Robert from "./Robert.jpeg";
-import Kathe from "./Kathe.jpeg";
+import Benja from "../images/Benja.jpeg";
+import Robert from "../images/Robert.jpeg";
+import Kathe from "../images/Kathe.jpeg";
 
 
 class About extends React.Component{

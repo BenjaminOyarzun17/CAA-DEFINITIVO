@@ -8,10 +8,10 @@ class Directiva extends React.Component{
         return(
         
         <Media >
-            <Media left href="#">
+            <Media right href="https://www.youtube.com/watch?v=rRPQs_kM_nw&t=13s">
               
               
-              <img src={this.props.imagen} style ={{width:'150px', height:"auto"}} alt="Responsive image"></img>
+              <img src={this.props.imagen} style ={{width:'110px', height:"auto"}} alt="Responsive image"></img>
             </Media>
             <Media body>
               <Media heading style={{marginLeft: "10px"}}>
@@ -22,6 +22,7 @@ class Directiva extends React.Component{
               {this.props.contenido}              
               </p>
             </Media>
+           
         </Media>
        
         
