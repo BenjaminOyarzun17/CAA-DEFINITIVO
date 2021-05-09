@@ -87,17 +87,25 @@ class Propuestas extends React.Component{
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
-                      <p style={{textAlign:"justify"}}>Somos de la opinión, de que la mejor forma de representar a una comunidad es preguntándole directamente a ella lo que necesita. Por esta razón, queremos reformar el funcionamiento del centro de alumnos mediante encuestas. Básicamente, haremos encuestas regularmente con el fin de:</p>
+                      <p style={{textAlign:"justify"}}>Somos de la opinión de que la mejor forma de representar a una comunidad es preguntándole directamente a ella lo que necesita. Por esta razón, queremos reformar el funcionamiento del centro de alumnos mediante encuestas. Básicamente, haremos encuestas regularmente con el fin de: </p>
                         <ul style={{textAlign:"justify"}}>
-                            <li>Juntar nuevas propuestas del alumnado para luego el mismo alumnado las pueda evaluar en una encuesta siguiente.</li>
-                            <li>Evaluar las propuestas anteriores, para que asi el mismo alumnado vote por lo que estima importante, de tal forma, que el centro de alumnos sepa que es importante hacer y proponer.</li>
+                            <li>Juntar nuevas propuestas del alumnado para que luego el mismo alumnado las pueda evaluar en una encuesta siguiente.</li>
+                            <li>Evaluar las propuestas anteriores, para que así el mismo alumnado vote por lo que estima importante, de tal forma, que el centro de alumnos sepa que es importante hacer y proponer.</li>
                         </ul>
-                        <p style={{textAlign:"justify"}}>Ahora, con la finalidad de comunicar continuamente lo que se esta realizando, junto a los resultados de las encuestas se usaran dos medios en específico: </p>
+                        <p style={{textAlign:"justify"}}>Esto se hará con los siguientes pasos:</p>
+                        <ol style={{textAlign:"justify"}}>
+                          <li>Encuesta original: el alumno envía su problemática general relativa al colegio al centro de alumnos. </li>
+                          <li>Siguiente encuesta: el centro de alumnos incluye la propuesta de tal forma que los alumnos puedan votar por ella. </li>
+                          <li>Si es que aquella propuesta obtiene mayoría, entonces el centro de alumnos tramitará esta propuesta directamente con el colegio. </li>
+                        </ol>
+                        <p style={{textAlign:"justify"}}>La ventaja de este proceso, es que el CAA puede contar con datos que apoyan la importancia de esta medida para el alumnado, pues el mismo alumnado lo propuso y eligió. </p>
+                        <br></br>
+                        <p style={{textAlign:"justify"}}>Ahora, con la finalidad de comunicar continuamente lo que se está realizando, junto a los resultados de las encuestas se usarán dos medios de comunicación en específico: </p>
                         <ul style={{textAlign:"justify"}}>
-                            <li>Instagram por su volatilidad, fácil uso y masividad.</li>
-                            <li>Esta misma página web, que a diferencia de instagram, permite exponer la información con mayor precisión y profundidad, además de servir como un registro para el alumnado.</li>
+                            <li><a href="https://www.instagram.com/soywapolistaa/">Instagram</a> por su volatilidad, fácil uso y popularidad.</li>
+                            <li>Esta misma página web, que a diferencia de instagram, permite exponer la información con mayor precisión y profundidad, además de servir como un registro para el alumnado. </li>
                         </ul>
-                        <p style={{textAlign:"justify"}}>Finalmente, se incorporará al servidor de Discord creado el año pasado (Chamber of Secrets). En este se buscará fomentar que el alumnado tenga un espacio para juntarse durante las cuarentenas, junto a conocer a miembros de otros cursos. También puede servir como un buen medio de difusión de información y de estudio. </p>
+                        <p style={{textAlign:"justify"}}>Finalmente, se incorporará al servidor de <a href="https://discord.gg/tPpUskwuD5">Discord</a> creado el año pasado (Chamber of Secrets). En este se buscará fomentar que el alumnado tenga un espacio para reunirse durante las cuarentenas, junto con conocer a miembros de otros cursos. También puede servir como un buen medio de difusión de información y de estudio. </p>
 
                       </Card.Body>
                     </Accordion.Collapse>
@@ -111,7 +119,7 @@ class Propuestas extends React.Component{
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
-                      <p style={{textAlign:"justify"}}>Opinamos que una buena forma de fomentar el sentimiento de comunidad es reconociendo a los alumnos, para así desarrollar la empatía que unos sienten a otros, y también, para celebrar logros excepcionales o especiales. Por lo tanto, celebraremos todo tipo de logro extraordinario en el sentido académico, deportivo, artístico, entre otros. Esto no solo se dará entre alumnos, pues los profesores y auxiliares también son integrantes fundamentales de nuestra comunidad. Así, también se buscará premiar a estas personas. </p>
+                      <p style={{textAlign:"justify"}}>Opinamos que una buena forma de fomentar el sentimiento de comunidad es reconociendo los logros de los alumnos, profesores y auxiliares, ya que esto fomenta el sentimiento de empatía y de alegría por el otro. Celebraremos todo tipo de logro extraordinario en el sentido académico, deportivo, artístico, entre otros.</p>
 
 
                       </Card.Body>
@@ -126,7 +134,11 @@ class Propuestas extends React.Component{
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
-                      <p style={{textAlign:"justify"}}>Con Clubes nos referimos a grupos de alumnos que se juntan regularmente en un lugar para discutir un tema o realizar una actividad. La gran diferencia que esto tiene con los talleres, es que los talleres son una lista de la cual se elige, mientras que los clubes son iniciativas que nacen de los alumnos y son impulsadas por los mismos. Así, los alumnos podrán tener el apoyo del centro de alumnos para difundir estas iniciativas, de tal forma que se pueda invitar a nuevos miembros que les interese el tema. Por ejemplo, se podría crear un club que LOL que se junte todos los jueves a las 18:00 a jugar. Todo esto ayudará además a reforzar el sentimiento de comunidad, ya que los alumnos podrán conocer a personas que no sean del mismo curso/generación. </p>
+                      <p style={{textAlign:"justify"}}>Con Clubes nos referimos a grupos de alumnos que se juntan periódicamente en un lugar para discutir un tema o realizar una actividad. La gran diferencia que esto tiene con los talleres, es que los talleres son una lista de la cual se elige, mientras que los clubes son iniciativas que nacen de los alumnos y son impulsadas y organizadas por los mismos. Como centro de alumnos, ofrecemos el apoyo al alumnado para difundir estas iniciativas, de tal forma que puedan llegar  nuevos miembros que les interese el tema a su respectivo club. Por ejemplo, se podría crear un club de LOL que se junte todos los jueves a las 18:00 a jugar.</p>
+                      <br></br>
+                      <p style={{textAlign:"justify"}}>Esta iniciativa ayudará además a reforzar el sentimiento de comunidad, ya que los alumnos podrán conocer a personas que no sean del mismo curso/generación. </p>
+                      <br></br>
+                      <p style={{textAlign:"justify"}}>Considerando que el colegio acoge el programa IB y por ende la asignatura CAS, podría ser un buen proyecto crear un club como proyecto CAS, por lo que también es una instancia conveniente para los miembros de la comunidad.</p>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -139,7 +151,7 @@ class Propuestas extends React.Component{
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
-                      <p style={{textAlign:"justify"}}>Otra forma de desarrollar el sentimiento de pertenencia, es entrando en contacto con otras comunidades. La competencia sana, la interacción con otras comunidades en actividades organizadas en conjunto pueden ser un buen método para lograr esto, ya que permiten dar a entender que el colegio es un equipo y que todos estamos juntos en lo mismo. Es decir, es una buena forma de unificar al colegio, incluso en situaciones como las cuarentenas, que nos alejan paulatinamente.  </p>
+                      <p style={{textAlign:"justify"}}>Otra forma de desarrollar el sentimiento de pertenencia es entrando en contacto con otras comunidades. La competencia sana y la interacción con otros colegios en actividades organizadas en conjunto pueden ser un buen método para lograr esto, ya que permiten dar a entender que el colegio es un equipo al que todos pertenecemos. Es decir, es una buena forma de unificar al colegio, incluso en situaciones como las cuarentenas, que nos alejan paulatinamente.  </p>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
