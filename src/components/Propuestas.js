@@ -58,7 +58,7 @@ class Propuestas extends React.Component{
           <Card>
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                <h2>Propuestas principales</h2>
+                <h2>Propuestas principales (clickear para ver más)</h2>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
