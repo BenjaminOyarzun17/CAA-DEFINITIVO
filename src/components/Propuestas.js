@@ -35,7 +35,7 @@ class Propuestas extends React.Component{
             <Accordion.Collapse eventKey="0">
               <Card.Body>
                 <Container>
-                <h2 style={{textAlign:"justify",marginTop:"10px"}}>Nuestras Filosofía</h2>
+                <h2 style={{textAlign:"justify",marginTop:"10px"}}>Nuestra Filosofía</h2>
                 <p style={{textAlign:"justify"}}>Nuestra lista se basa en tres pilares fundamentales:</p>
                 <img src={pilares} class="img-fluid" alt="Responsive image"/>
                 
@@ -43,11 +43,11 @@ class Propuestas extends React.Component{
 
 
                 <ul style={{textAlign:"justify"}}>
-                    <li> <b>Apertura</b>: Pensamos que el centro de alumnos es una institución que representa al alumnado y no a los intereses de un grupo pequeño de personas. Por esto estamos dispuestos a siempre escuchar la opinión de un alumno y exponerla al mismo alumnado para así determinar si es que se necesita una representación por parte del CAA para exponer a la directiva escolar el asunto.</li>
-                    <li><b>Comunicación</b>: Para poder ser una lista abierta, creemos que la comunicación es una base fundamental . Por lo tanto, no esforzaremos por dar constantemente cuenta de los procesos en los que se encuentran los trámites de propuestas, además de proyectos internos. Esencialmente se buscará dejar a acceso de todos los miembros de la comunidad lo que el centro de alumnos está realizando, para que esta pueda comentar sobre ello. Para esto se buscará usar un uso innovador, eficaz e inteligente de la tecnología que tenemos disponible. </li>
-                    <li><b>Efectividad</b>: Buscamos aplicar los mejores recursos posibles para poder optimizar el trabajo y efectividad de nuestro centro de alumnos. Además, creemos que ciertas reformas de la estructura del CAA son necesarias. </li>
+                    <li><b>Apertura</b>: Pensamos que el centro de alumnos es una institución que representa al alumnado y no a los intereses de un grupo pequeño de personas. Por esto estamos dispuestos a siempre escuchar la opinión de un alumno y exponerla al mismo alumnado para así determinar si es que se necesita una representación por parte del CAA para exponer a la directiva escolar el asunto. </li>
+                    <li><b>Comunicación</b>: Para poder ser una lista abierta, creemos que la comunicación es una base fundamental. Por lo tanto, nos esforzaremos por dar constantemente cuenta de los procesos en los que se encuentran los trámites de propuestas, y dar cuenta de proyectos internos. Esencialmente se buscará dar acceso a toda la comunidad lo que el centro de alumnos está realizando, para que esta pueda evaluarlo. Para esto se buscará dar un uso innovador, eficaz e inteligente a la tecnología que tenemos disponible. </li>
+                    <li><b>Efectividad</b>: Buscamos aplicar los mejores recursos disponibles para poder optimizar el trabajo y efectividad de nuestro centro de alumnos, además de ciertas reformas en su estructura.</li>
                 </ul>
-                <p style={{textAlign:"justify"}}>Estos tres pilares sostienen a uno muchos más importante, que es el objetivo de nuestro centro de alumnos: la noción de pertenencia a una <b>comunidad</b>.</p>
+                <p style={{textAlign:"justify"}}>Estos tres pilares sostienen a uno muchos más importante, que es el objetivo principal de nuestra lista: la noción de pertenencia a una <b>comunidad</b>.</p>
                 <img src={pilarCentral} class="img-fluid" alt="Responsive image"/>
 
                 </Container>
@@ -73,7 +73,7 @@ class Propuestas extends React.Component{
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                       <Card.Body>
-                        <p style={{textAlign:"justify"}}>Opinamos que el antiguo sistema de delegados genera cierta lentitud en procesos de información a los curso, como también no siempre es efectivo, pues no todos los delegados destacan por su alta participación. Por estas razones, proponemos eliminar al sistema de delegados y reemplazarlo por las mismas directivas de los cursos. De esta manera, se eliminará un cargo, algo que bajará la cantidad de personas que hay en el centro de alumnos, y por ende, la comunicación interior se facilitará. Al mismo tiempo, al establecer relaciones más estrechas con las directivas de curso, se tendrá una mejor comunicación con estas importantes partes de la comunidad. Así, se facilitará la difusión de información y al mismo tiempo, el envío de retroalimentación. </p>
+                        <p style={{textAlign:"justify"}}>Opinamos que el antiguo sistema de delegados genera cierta lentitud en los procesos de difusión de información a los cursos, además de no ser siempre efectivo, pues no todos los delegados destacan por su alta participación. Por estas razones, proponemos eliminar al sistema de delegados y reemplazarlo por las mismas directivas de los cursos. De esta manera, se eliminará un cargo, algo que reducirá el tamaño del centro de alumnos, y por ende, la comunicación interior se acelerará. Al mismo tiempo, al establecer relaciones más estrechas con las directivas de curso, se tendrá una mejor comunicación con estas importantes partes de la comunidad, lo cual facilitará la difusión de información y el envío de retroalimentación. </p>
 
                       </Card.Body>
                     </Accordion.Collapse>
