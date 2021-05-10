@@ -2,10 +2,9 @@ import React from 'react';
 
 import '../App.css';
 import Noticia from './Noticia.js';
-import Anuncio from './Anuncio.js';
 
 import {noticias} from './Noticias.json';
-import {Row,Container} from 'reactstrap';
+import {Container} from 'reactstrap';
 
 
 
