@@ -1,11 +1,10 @@
 import React from 'react';
 
 import '../App.css';
-import Noticia from './Directiva.js';
 import Anuncio from './Anuncio.js';
 
 import {integrantes} from './Integrantes.json';
-import {Row,Container} from 'reactstrap';
+import {Container} from 'reactstrap';
 
 
 

@@ -1,10 +1,8 @@
 import React from 'react';
 
 import '../App.css';
-import Noticia from './Noticia.js';
-import Anuncio from './Anuncio.js';
 
-import {integrantes} from './Integrantes.json';
+
 import { Container } from 'reactstrap';
 import {Card, Accordion, Button} from 'react-bootstrap';
 
