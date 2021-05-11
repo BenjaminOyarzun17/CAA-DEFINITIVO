@@ -26,14 +26,14 @@ class Propuestas extends React.Component{
           <Card>
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                <h2>Nuestra Filosofía</h2>
+                <h2>Nuestros Valores</h2>
                 
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
               <Card.Body>
                 <Container>
-                <h2 style={{textAlign:"justify",marginTop:"10px"}}>Nuestra Filosofía</h2>
+                <h2 style={{textAlign:"justify",marginTop:"10px"}}>Nuestros Valores</h2>
                 <p style={{textAlign:"justify"}}>Nuestra lista se basa en tres pilares fundamentales:</p>
                 <img src={pilares} class="img-fluid" alt="Responsive image"/>
                 

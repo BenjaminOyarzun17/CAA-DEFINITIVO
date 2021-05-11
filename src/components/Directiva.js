@@ -8,7 +8,7 @@ class Directiva extends React.Component{
         return(
         
         <Media >
-            <Media right href="https://www.youtube.com/watch?v=rRPQs_kM_nw&t=13s">
+            <Media right href="">
               
               
               <img src={this.props.imagen} style ={{width:'110px', height:"auto"}} alt="Responsive image"></img>
