@@ -80,7 +80,7 @@ class About extends React.Component{
               mail = {integrantes[3].mail}
               />
           </Container>
-          <Container>
+        <Container>
           <Directiva
                
               imagen ={Robert}
@@ -89,7 +89,18 @@ class About extends React.Component{
               mail = {integrantes[4].mail}
               />
           </Container>
+          <Container>
+          <Directiva
+               
+              
+              cabezal={integrantes[5].cabezal}
+              contenido={integrantes[5].contenido}
+              mail = {integrantes[5].mail}
+              />
+          </Container>
         </Container>
+        
+        
         
       
       

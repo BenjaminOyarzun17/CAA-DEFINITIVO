@@ -30,6 +30,12 @@
             "imagen":"64.png",
             "mail":"rwagner@dsmorus.cl",
             "curso":"IVºC"
+        },{
+            "cabezal":"Contacto brigada verde: Matilde Vergara",
+            "contenido":"Como encargada del medioambiente y vicepresidenta de la Brigada Verde, me comprometo a, junto al Centro de Alumnos y la comunidad tomasmorina, promover la sustentabilidad y la toma de acciones responsables para nuestro planeta. Además, trabajaremos en contacto cercano con la Brigada Verde y el Comité Ambiental para asegurar la educación ambiental y para ayudar así a nuestro medioambiente.",
+            "imagen":"64.png",
+            "mail":"mvergara@dsmorus.cl",
+            "curso":"IVºB"
         }
     ]
 }
