@@ -42,6 +42,7 @@ class About extends React.Component{
     <div>
         
         <h1 style={{textAlign:'justify', margin:"50px"}}>Sobre nosotros</h1>
+        <h2 style={{textAlign:'justify', margin:"50px"}}>Nuestra Directiva</h2>
         <Container>
           <Container>
             <Directiva
