@@ -30,7 +30,7 @@ class Navegacion extends React.Component{
                       
                       <NavDropdown title="About" id="basic-nav-dropdown">
                       
-                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/about">Directiva</Link></NavDropdown.Item>
+                        <NavDropdown.Item href=""><Link style={{color:'black'}} to="/about">Lista A</Link></NavDropdown.Item>
                         <NavDropdown.Item href=""><Link style={{color:'black'}} to="/propuestas">Propuestas</Link></NavDropdown.Item>
                         <NavDropdown.Item href=""><Link style={{color:'black'}} to="/noticias">Noticias</Link></NavDropdown.Item>
                         <NavDropdown.Item href=""><Link style={{color:'black'}} to="/discord">Discord</Link></NavDropdown.Item>

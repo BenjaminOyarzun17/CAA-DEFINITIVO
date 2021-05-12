@@ -89,6 +89,10 @@ class About extends React.Component{
               mail = {integrantes[4].mail}
               />
           </Container>
+          <div style={{textAlign:'justify'}}>
+            <h2>Miembros de nuestra Lista</h2>
+          </div>
+          
           <Container>
           <Directiva
                
