@@ -18,7 +18,7 @@ class Anuncio extends React.Component{
                 <p className="lead">
                   
                   <Container>
-                    <img src={fotogrupal} style ={{width:'400px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={fotogrupal} style ={{width:'300px', height:"auto"}} alt="Responsive image"></img>
                     
 
                   </Container>
