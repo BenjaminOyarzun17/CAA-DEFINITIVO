@@ -2,14 +2,8 @@ import React from 'react';
 import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
-import AmeliaWatson from '../images/AmeliaWatson.png';
-import council from '../images/council.png'
-import angryDoggo from '../images/angryDoggo.png'
-import Puñito from '../images/Puñito.png'
-import Average from '../images/average.png'
-import CatLogo from '../images/CatLogo.png';
-import Sapo from '../images/sapo.png';
-import Messi from '../images/messi.png';
+import fotogrupal from '../images/fotogrupal.jpg';
+
 class Anuncio extends React.Component{
   
 
@@ -24,16 +18,7 @@ class Anuncio extends React.Component{
                 <p className="lead">
                   
                   <Container>
-                    <img src={AmeliaWatson} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                    <img src={council} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                  
-                    <img src={angryDoggo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                    <img src={Puñito} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                 
-                    <img src={Average} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>  
-                    <img src={CatLogo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                    <img src={Sapo} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
-                    <img src={Messi} style ={{width:'200px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={fotogrupal} style ={{width:'400px', height:"auto"}} alt="Responsive image"></img>
                     
 
                   </Container>
