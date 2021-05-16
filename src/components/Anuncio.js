@@ -3,6 +3,8 @@ import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
 import fotogrupal from '../images/fotogrupal.jpg';
+import grupal2 from '../images/grupal2.jpg';
+import grupal3 from '../images/grupal3.jpg';
 
 class Anuncio extends React.Component{
   
@@ -19,6 +21,8 @@ class Anuncio extends React.Component{
                   
                   <Container>
                     <img src={fotogrupal} style ={{width:'300px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={grupal2} style ={{width:'300px', height:"auto"}} alt="Responsive image"></img>
+                    <img src={grupal3} style ={{width:'300px', height:"auto"}} alt="Responsive image"></img>
                     
 
                   </Container>
