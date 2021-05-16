@@ -20,8 +20,9 @@ class Anuncio extends React.Component{
                 <p className="lead">
                   
                   <Container>
-                    <img src={fotogrupal} style ={{width:'300px', height:"auto"}}></img>
                     <img src={grupal2} style ={{width:'300px', height:"auto"}}></img>
+                    <img src={fotogrupal} style ={{width:'300px', height:"auto"}}></img>
+                    
                     <img src={grupal3} style ={{width:'300px', height:"auto"}}></img>
                     
 
