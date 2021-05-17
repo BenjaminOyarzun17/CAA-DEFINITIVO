@@ -22,6 +22,7 @@ class Anuncio extends React.Component{
                   <Container>
                     
                     <img src={fotogrupal} style ={{width:'300px', height:"auto"}}></img>
+                   
                     
                     <img src={grupal3} style ={{width:'300px', height:"auto"}}></img>
                     
