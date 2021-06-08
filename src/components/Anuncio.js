@@ -19,31 +19,21 @@ class Anuncio extends React.Component{
                 
                 <p className="lead">
                   
-                  <Container>
-                    
-                    <img src={fotogrupal} style ={{width:'300px', height:"auto"}}></img>
-                   
-                    
-                    <img src={grupal3} style ={{width:'300px', height:"auto"}}></img>
-                    
-
-                  </Container>
+                  
                   <br></br>
                   <Container>
                   
-                  <Link to='/about'>Sobre nuestra lista</Link>
+                  <Link to='/about'>Nuestro centro de alumnos</Link>
 
                   </Container>
                   <br></br>
-                  <Container>
-                  
-                  <Link to='/propuestas'>Nuestras propuestas</Link>
-                  </Container>
+                 
                   
                   
                   
                 </p>
               </Jumbotron>
+              
             </div>
           );
 }

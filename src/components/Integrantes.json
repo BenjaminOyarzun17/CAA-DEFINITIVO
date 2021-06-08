@@ -1,40 +1,34 @@
 {
     "integrantes":[
         {
-            "cabezal":"Presidente: Gabriel Poblete",
-            "contenido":"Gabriel ha participado del CAA de nuestro colegio desde octavo básico, participando en distintos procesos y actividades. Su objetivo es simple, eliminar procesos inefectivos que enlentecen la producción de actividades entretenidas para los alumnos. Además, quiere producir un sentimiento de comunidad y pertenencia en nuestro colegio, con un enfoque en lo que puede ayudar para mejorar el futuro de nuestra comunidad.",
+            "cabezal":"Copresidenta: Florencia Zárate",
+            "contenido":"Hola soy Florencia Zárate del 12.A, soy copresidenta del Centro de Alumnos. Mis objetivos para este año en la presidencia son que como alumnado se sientan cómodos y conformes con las actividades innovadoras que haremos este año.",
             "imagen":"64.png",
-            "mail":"gpoblete@dsmorus.cl",
+            "mail":"fzarate@dsmorus.cl",
             "curso":"IVºB"
         },{
-            "cabezal":"Vicepresidente: Rafael Poblete",
-            "contenido":"¿Alguna vez te has sentido como que no encajas, como que eres fuera de serie, que no eres parte del grupo? Yo he sentido lo mismo y yo me comprometo a que tú en el colegio te sientas en casa, yo me comprometo a darte un espacio para encajar porque yo he sentido lo mismo.",
+            "cabezal":"Copresidenta: Millaray Pumarino",
+            "contenido":"Hola soy Millaray Pumarino del 12A y soy copresidenta del Centro de Alumnos. Mis objetivos para este año son que todos los alumnos y alumnas vayan al colegio y se sientan seguros en ese espacio, que todos compartimos y que se sientan cómodos con las actividades que queremos realizar con toda la comunidad Tomas Morina.",
             "imagen":"64.png",
-            "mail":"rpoblete@dsmorus.cl",
+            "mail":"mpumarino@dsmorus.cl",
             "curso":""
         },{
-            "cabezal":"Secretaria: Katherina Schreiner",
-            "contenido":"Como secretaria me haré responsable de recibir y gestionar toda correspondencia dirigida a la directiva, me encargare de redactar y responder a la mayoría de correos. Para que todo tenga una funcionalidad óptima y eficaz, mi responsabilidad será administrar y apuntar todos los asuntos que sean tratados en las reuniones realizadas en la directiva para un mayor control y organización. Uno de mis roles más importantes es tener una visión más amplia para contribuir al mejoramiento del ambiente, atención a las personas del colegio de igual forma de gestión, que sirve de base para el desarrollo de la propuestas.",
+            "cabezal":"Secretaria: Isidora Valencia",
+            "contenido":"Hola soy Isidora Valencia del 11A. Yo seré esa persona que tome apuntes de tus propuestas, quejas o sugerencias para llevarlas a la mesa y encontrar una solución. Como secretaria te ayudaré en todo lo posible.",
             "imagen":"64.png",
-            "mail":"kschreiner@dsmorus.cl",
+            "mail":"ivalencia@dsmorus.cl",
             "curso":""
         },{
-            "cabezal":"Tesorero (y difusión): Benjamín Oyarzún",
-            "contenido":"Como tesorero me comprometo a administrar los recursos de nuestro centro de alumnos responsablemente. Siento que es esencial dar acceso público a los gastos realizados por el centro de alumnos (mediante hoja de cálculos de Google). Por otro lado, como encargado de difusión, seré responsable de difundir toda aquella acción que el centro de alumnos esté llevando a cabo, sumado a la difusión de encuestas y la administración de los medios de esta lista, tal cual como esta página web, el instagram, o el discord.",
+            "cabezal":"Tesorero: Matías Rodríguez",
+            "contenido":"Hola, soy Matías Rodriguez del 11.A y soy tesorero del centro de alumnos. Mi objetivo para este año es lograr que todos y todas nos sintamos cómodos dentro del colegio y así poder sacar a relucir todas esas pequeñas cosas que nos hacen unicos a cada uno.",
             "imagen":"Benja.jpg",
-            "mail":"boyarzun@dsmorus.cl",
+            "mail":"mrodriguez@dsmorus.cl",
             "curso":"IVºB"
         },{
-            "cabezal":"Encargado de relaciones públicas: Robert Wagner",
-            "contenido":"Como encargado de relaciones públicas, me comprometo a gestionar todo lo relacionado con comunicaciones dentro y fuera del colegio, organizando eventos de todo tipo, como actividades con otros colegios, reuniones con la municipalidad, o charlas vocacionales. También tomaré en cuenta cualquier sugerencia de parte de los alumnos y profesores y las compartiré con la directiva. Estoy dispuesto a estar presente en cualquier instancia que precise a un representante de la directiva. Además, seré completamente transparente con la información y seré el vocero de las propuestas del CAA.",
+            "cabezal":"Difusión: Benjamín Oyarzún",
+            "contenido":"Como encargado de difusión, seré responsable de difundir toda aquella acción que el centro de alumnos esté llevando a cabo, sumado a la difusión de encuestas y la administración de los medios de esta lista, tal cual como esta página web o el discord.",
             "imagen":"64.png",
-            "mail":"rwagner@dsmorus.cl",
-            "curso":"IVºC"
-        },{
-            "cabezal":"Contacto brigada verde: Matilde Vergara",
-            "contenido":"Como encargada del medioambiente y vicepresidenta de la Brigada Verde, me comprometo a, junto al Centro de Alumnos y la comunidad tomasmorina, promover la sustentabilidad y la toma de acciones responsables para nuestro planeta. Además, trabajaremos en contacto cercano con la Brigada Verde y el Comité Ambiental para asegurar la educación ambiental y para ayudar así a nuestro medioambiente.",
-            "imagen":"64.png",
-            "mail":"mvergara@dsmorus.cl",
+            "mail":"boyarzun@dsmorus.cl",
             "curso":"IVºB"
         }
     ]

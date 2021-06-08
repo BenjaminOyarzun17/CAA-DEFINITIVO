@@ -8,11 +8,7 @@ class Directiva extends React.Component{
         return(
         
         <Media >
-            <Media right href="">
-              
-              
-              <img src={this.props.imagen} style ={{width:'110px', height:"auto"}} alt="Responsive image"></img>
-            </Media>
+            
             <Media body>
               <Media heading style={{marginLeft: "10px"}}>
               <p style={{textAlign: "justify"}}>{this.props.cabezal}</p>

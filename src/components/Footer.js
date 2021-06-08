@@ -12,9 +12,9 @@ class Footer extends React.Component{
        
        
        <Row>
-          <Col><p style={{margin:"10px"}}>Contacto: kschreiner@dsmorus.cl </p></Col>
+          <Col><p style={{margin:"10px"}}>Contacto: ivalencia@dsmorus.cl </p></Col>
           <Col><p style={{margin:"10px"}}><a href="https://discord.gg/tPpUskwuD5">Discord </a></p></Col>
-            <Col><p style={{margin:"10px"}}><a href="https://www.instagram.com/soywapolistaa/">Instagram </a></p></Col>
+            <Col><p style={{margin:"10px"}}><a href="https://www.instagram.com/caamorus/">Instagram </a></p></Col>
             <Col><p style={{margin:"10px"}}>Whatsapp:</p></Col>
         </Row>
       </footer>
