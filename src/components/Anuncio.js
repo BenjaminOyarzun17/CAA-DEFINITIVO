@@ -23,11 +23,14 @@ class Anuncio extends React.Component{
                   <br></br>
                   <Container>
                   
-                  <Link to='/about'>Nuestro centro de alumnos</Link>
+                  <Link to='/about'>Nuestro centro de alumnos</Link><br/>
+                  
 
                   </Container>
                   <br></br>
-                 
+                  <Container><Link to='/calendario'>Calendario de actividades</Link><br/></Container>
+                  <br></br>
+                  <Container><Link to='/noticias'>Novedades</Link></Container>
                   
                   
                   

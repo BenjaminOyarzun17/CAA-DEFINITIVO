@@ -12,16 +12,9 @@ class Navegacion extends React.Component{
         return(
             <div>
           <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="">
-      <img
-        alt=""
-        src={CatLogo}
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-      />{' '}
+       <Navbar.Brand>   
       CAA DS MORUS
-    </Navbar.Brand>
+      </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
