@@ -117,7 +117,7 @@ class About extends React.Component{
               <li>Valentina Maldonado (8ºB)</li>
               <li>Átia Winkler (8ºC)</li>
               <li>Amparo Camiroaga (8ºC)</li>
-              <li>Vero (10ºC)</li>
+              <li>Verónica Garcia (10ºC)</li>
             </ul>
             <h3>Delegados de música</h3>
             <ul>
