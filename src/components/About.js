@@ -104,7 +104,7 @@ class About extends React.Component{
             <ul>
               <li>Laura Carvajal (7ºB)</li>
               <li>Simon Fuentes (7ºB)</li>
-              <li>Gracia Villanueva (7ºB)</li>
+              <li>Gracia Villanueva (7ºC)</li>
             </ul>
             <h3>Encargado de operaciones y logística</h3>
             <ul>

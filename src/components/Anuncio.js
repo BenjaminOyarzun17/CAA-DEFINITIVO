@@ -13,7 +13,7 @@ class Anuncio extends React.Component{
         return (
             <div>
               <Jumbotron >
-                <h1 className="display-3">Bienvenido nuestra página web.</h1>
+                <h1 className="display-3">Bienvenido a nuestra página web.</h1>
                 <p className="lead">¡En este apartado publicaremos nuestros proyectos en desarrollo o en fase de planificación, junto a información importante, entre otras cosas!.</p>
                 <hr className="my-2" />
                 
