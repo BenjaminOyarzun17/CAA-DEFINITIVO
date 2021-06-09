@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 import { Link} from 'react-router-dom';
+import {Carousel} from 'react-bootstrap';
 
-import fotogrupal from '../images/fotogrupal.jpg';
-import grupal2 from '../images/grupal2.jpg';
-import grupal3 from '../images/grupal3.jpg';
+import primerDiaTematico from '../images/primerDiaTematico.jpeg';
+
 
 class Anuncio extends React.Component{
   
@@ -12,7 +12,19 @@ class Anuncio extends React.Component{
     render(){
         return (
             <div>
-              <Jumbotron >
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={primerDiaTematico}
+                    alt="First slide"
+                    style={{maxHeight:"500px",
+                      width:"auto", textAlign:'center', marginLeft:"auto", marginRight:"auto"}}
+                  />
+                 
+                </Carousel.Item>
+                <Carousel.Item>
+                <Jumbotron >
                 <h1 className="display-3">Bienvenido a nuestra página web.</h1>
                 <p className="lead">¡En este apartado publicaremos nuestros proyectos en desarrollo o en fase de planificación, junto a información importante, entre otras cosas!.</p>
                 <hr className="my-2" />
@@ -36,6 +48,13 @@ class Anuncio extends React.Component{
                   
                 </p>
               </Jumbotron>
+                </Carousel.Item>
+                
+              </Carousel>
+              
+              
+              
+             
               
             </div>
           );

@@ -7,9 +7,6 @@ import { Container } from 'reactstrap';
 import {Card, Accordion, Button} from 'react-bootstrap';
 
 
-import pilares from '../images/pilares.png';
-import pilarCentral from '../images/pilarCentral.png';
-
 
 
 class Propuestas extends React.Component{
@@ -35,7 +32,7 @@ class Propuestas extends React.Component{
                 <Container>
                 <h2 style={{textAlign:"justify",marginTop:"10px"}}>Nuestros Valores</h2>
                 <p style={{textAlign:"justify"}}>Nuestra lista se basa en tres pilares fundamentales: </p>
-                <img src={pilares} class="img-fluid" alt="Responsive image"/>
+               
                 
                 
 
@@ -46,7 +43,7 @@ class Propuestas extends React.Component{
                     <li><b>Efectividad</b>: Buscamos aplicar los mejores recursos disponibles para poder optimizar el trabajo y efectividad de nuestro centro de alumnos, además de ciertas reformas en su estructura. </li>
                 </ul>
                 <p style={{textAlign:"justify"}}>Estos tres pilares sostienen a uno muchos más importante, que es el objetivo principal de nuestra lista: la noción de pertenencia a una <b>comunidad</b>.</p>
-                <img src={pilarCentral} class="img-fluid" alt="Responsive image"/>
+                
 
                 </Container>
                 

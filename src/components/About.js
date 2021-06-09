@@ -6,12 +6,12 @@ import Anuncio from './Anuncio.js';
 
 import {integrantes} from './Integrantes.json';
 import {Row,Container} from 'reactstrap';
+import perfilFlo from '../images/perfilFlo.jpg';
+import perfilBenja from '../images/perfilBenja.jpeg';
+import perfilMily from '../images/perfilMily.jpg';
+import perfilMati from '../images/perfilMati.jpg';
+import perfilIsi from '../images/perfilIsi.jpg';
 
-import Benja from "../images/Benja.jpeg";
-import Robert from "../images/Robert.jpeg";
-import Kathe from "../images/Kathe.jpeg";
-import Gabo from "../images/Gabo.jpeg";
-import Rafa from "../images/Rafa.jpeg";
 
 
 class About extends React.Component{
@@ -47,7 +47,7 @@ class About extends React.Component{
           <Container>
             <Directiva
               
-              imagen ={Gabo}
+              imagen= {perfilFlo}
               cabezal={integrantes[0].cabezal}
               contenido={integrantes[0].contenido}
               mail = {integrantes[0].mail}
@@ -56,7 +56,7 @@ class About extends React.Component{
           <Container>
           <Directiva
               
-              imagen ={Rafa}
+              imagen= {perfilMily}
               cabezal={integrantes[1].cabezal}
               contenido={integrantes[1].contenido}
               mail = {integrantes[1].mail}
@@ -66,7 +66,7 @@ class About extends React.Component{
           <Container>
           <Directiva
               
-              imagen ={Kathe}
+              imagen= {perfilIsi}
               cabezal={integrantes[2].cabezal}
               contenido={integrantes[2].contenido}
               mail = {integrantes[2].mail}
@@ -75,7 +75,7 @@ class About extends React.Component{
           <Container>
           <Directiva
              
-              imagen ={Benja}
+              
               cabezal={integrantes[3].cabezal}
               contenido={integrantes[3].contenido}
               mail = {integrantes[3].mail}
@@ -83,12 +83,19 @@ class About extends React.Component{
           </Container>
         <Container>
           <Directiva
-               
-              imagen ={Robert}
+               imagen= {perfilMati}
               cabezal={integrantes[4].cabezal}
               contenido={integrantes[4].contenido}
               mail = {integrantes[4].mail}
               />
+          </Container>
+          <Container>
+          <Directiva
+               imagen= {perfilBenja}
+               cabezal={integrantes[5].cabezal}
+               contenido={integrantes[5].contenido}
+               mail = {integrantes[5].mail}
+               />
           </Container>
           <div style={{textAlign:'justify'}}>
             <h2>Miembros de nuestra Lista</h2>
