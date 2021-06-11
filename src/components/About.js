@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Image} from 'react-bootstrap';
 import '../App.css';
 import Directiva from './Directiva.js';
 import Anuncio from './Anuncio.js';
@@ -11,7 +11,7 @@ import perfilBenja from '../images/perfilBenja.jpeg';
 import perfilMily from '../images/perfilMily.jpg';
 import perfilMati from '../images/perfilMati.jpg';
 import perfilIsi from '../images/perfilIsi.jpg';
-
+import solidaridad from '../images/solidaridad.jpg';
 
 
 class About extends React.Component{
@@ -154,12 +154,15 @@ class About extends React.Component{
               <li>Milena Adrian (12ºB)</li>
             </ul>
             <h3>Comité de solidaridad</h3>
+            
+            
             <ul>
               <li>Javiera León (7ºC)</li>
               <li>Benjamín Rojas (9ºB)</li>
               <li>Isidora González (12ºA)</li>
               
             </ul>
+            <Image src={solidaridad} fluid style={{marginBottom:'10px'}}></Image>
           </Container>
         </Container>
         
