@@ -3,7 +3,7 @@ import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 import { Link} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 
-import primerDiaTematico from '../images/primerDiaTematico.jpeg';
+import rocketLeague from '../images/rocketLeague.jpeg';
 
 
 class Anuncio extends React.Component{
@@ -13,16 +13,20 @@ class Anuncio extends React.Component{
         return (
             <div>
               <Carousel>
-                <Carousel.Item>
+              <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={primerDiaTematico}
+                    src={rocketLeague}
                     alt="First slide"
-                    style={{maxHeight:"500px",
-                      width:"auto", textAlign:'center', marginLeft:"auto", marginRight:"auto"}}
+                    style={{ textAlign:'center', marginLeft:"auto", marginRight:"auto"}}
                   />
                  
                 </Carousel.Item>
+
+                
+
+
+
                 <Carousel.Item>
                 <Jumbotron >
                 <h1 className="display-3">Bienvenido a nuestra página web.</h1>
