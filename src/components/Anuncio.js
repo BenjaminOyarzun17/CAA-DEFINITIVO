@@ -3,7 +3,6 @@ import { Row, Col, Jumbotron, Button,Container } from 'reactstrap';
 import { Link} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 
-import rocketLeague from '../images/rocketLeague.jpeg';
 
 
 class Anuncio extends React.Component{
@@ -13,15 +12,7 @@ class Anuncio extends React.Component{
         return (
             <div>
               <Carousel>
-              <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={rocketLeague}
-                    alt="First slide"
-                    style={{ textAlign:'center', marginLeft:"auto", marginRight:"auto"}}
-                  />
-                 
-                </Carousel.Item>
+             
 
                 
 

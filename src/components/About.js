@@ -24,20 +24,7 @@ class About extends React.Component{
   
   
   render(){
-    /*const arregloComponente = this.state.integrantes.map(
-      (integrantes,i) => {
-        return ( 
-        <Container style={{backgroundColor:'lightblue', margin:'15px', borderStyle:"solid", borderWidth:"5px"}}>
-        <Directiva
-          key ={i}
-          imagen ={integrantes.imagen}
-          cabezal={integrantes.cabezal}
-          contenido={integrantes.contenido}
-          mail = {integrantes.mail}
-          />
-        </Container>
-        )}
-    );*/
+   
     return (
     <div>
         

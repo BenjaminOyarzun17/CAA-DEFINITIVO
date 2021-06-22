@@ -8,18 +8,17 @@ class Noticia extends React.Component{
         return(
         
         <Media >
-            <Media left href="#">
+            
+              <img style ={{width:'25%', height:'auto'}} src={this.props.imagen} alt="Responsive image"></img>
               
-              <img src={this.props.imagen} class="img-fluid" alt="Responsive image"></img>
-              
-            </Media>
+            
             <Media body>
-              <Media heading style={{marginLeft: "5px"}}>
-              <p style={{textAlign: "justify"}}>{this.props.cabezal}</p>
+              <Media heading >
+              <p style={{textAlign: "justify",marginLeft:'5px'}}>{this.props.cabezal}</p>
               </Media>
-              
+              <p style={{marginLeft:'5px'}}>
               {this.props.contenido}              
-              
+              </p>
             </Media>
         </Media>
        
