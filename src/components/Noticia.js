@@ -9,7 +9,7 @@ class Noticia extends React.Component{
         
         <Media >
             
-              <img style ={{width:'25%', height:'auto'}} src={this.props.imagen} alt="Responsive image"></img>
+              <img style ={{width:'25%', height:'auto'}} src={this.props.imagen} ></img>
               
             
             <Media body>

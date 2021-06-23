@@ -3,7 +3,7 @@ import React from 'react';
 import '../App.css';
 import Noticia from './Noticia.js';
 
-import {noticias} from './Noticias.json';
+import {noticias} from './Noticias.js';
 import {Container} from 'reactstrap';
 
 
