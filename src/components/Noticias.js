@@ -2,7 +2,11 @@ import coll from '../images/collRomano.jpeg';
 
 
 export const noticias = [
-        
+        {
+            "cabezal":"Actualización de estado",
+            "contenido":"¿Qué hemos hecho desde que asumimos como centro de alumnos? Inmediatamente empezamos a trabajar por las propuestas y principales temas a tratar como CAA. Tuvimos una reunión con rectoría para darle una versión de nuestras propuestas y contarles un poco lo que se estaba viviendo en el colegio. Además, participamos en la primera reunión del equipo de convivencia escolar donde conversamos sobre cómo se debería tratar la sexualidad en el colegio. Previo a irnos a cuarentena, nos juntamos nuevamente con rectoría para darles a entender cómo es que los alumnos se sienten con las clases online. Anunciamos también a nuestros profesores asesores: Rafael S. y Vale C., que nos apoyarán en este año. Conversamos con el CPA sobre las campañas y actividades que podemos hacer en conjunto.  ",
+            "imagen":"https://es.sendinblue.com/wp-content/uploads/sites/6/2018/04/RGPD-checklist2.jpg"
+        },
         {
             "cabezal":"Resultados torneo interno Rocket League",
             "contenido":"¡Felicidades a José Domingo Hirsch y Cristobal Renner por haber ganado en nuestro torneo interno de Rocket League el pasado Sábado 19 de Junio, y también a Cristóbal Silva y José Ignacio Gortázar (todos de los cuartos medios) por haber clasificado a la fase interescolar! ",

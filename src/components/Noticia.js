@@ -1,26 +1,34 @@
 import React from 'react';
 
-import { Media } from 'reactstrap';
+import { Row, Col, Media, Container } from 'reactstrap';
 //import {estrenoWeb} from 'estrenoWeb.png';
 
 class Noticia extends React.Component{
     render(){
         return(
         
-        <Media >
-            
-              <img style ={{width:'25%', height:'auto'}} src={this.props.imagen} ></img>
+        <Container fluid>
+            <Row>
+              <Col>
+              <img style ={{width:'100%', height:'auto', marginTop:'25px'}} src={this.props.imagen} ></img>
+              </Col>
+              <Col xs={8}>
+              <h3 style={{textAlign: "justify",marginLeft:'5px'}}>{this.props.cabezal}</h3><br></br>
+              <p style={{marginLeft:'5px'}}>
+              {this.props.contenido}              
+              </p>
+              </Col>
+            </Row>
+              
               
             
             <Media body>
               <Media heading >
-              <p style={{textAlign: "justify",marginLeft:'5px'}}>{this.props.cabezal}</p>
+              
               </Media>
-              <p style={{marginLeft:'5px'}}>
-              {this.props.contenido}              
-              </p>
+              
             </Media>
-        </Media>
+        </Container>
        
         
         
